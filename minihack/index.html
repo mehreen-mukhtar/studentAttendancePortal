@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <img src="smit.png" alt="" height="130vh" width="130vh">
+    <div class="container">
+        <h2>Attendance Portal</h2>
+        <hr />
+        <br />
+        <div class="form">
+            Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <input type="text" name="name" id="name" /> <br /><br />
+            Class Timing :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<select name=" Class Timing" id="classTiming" required> 
+                <option value="" selected disabled>Choose Your Timing</option>
+                <option value="9:00 to 12:00 Sunday">9:00 to 12:00 Sunday</option>
+                <option value="14:00 to 17:00 Sunday">14:00 to 17:00 Sunday</option>
+                <option value="9:00 to 12:00 Monday">9:00 to 12:00 Monday</option>
+                <option value="14:00 to 17:00 Monday">14:00 to 17:00 Monday</option>
+                <option value="9:00 to 12:00 Tuesday">9:00 to 12:00 Tuesday</option>
+                <option value="14:00 to 17:00 Tuesday ">14:00 to 17:00 Tuesday</option>
+                <option value="9:00 to 12:00 Wednesday">9:00 to 12:00 Wednesday</option>
+                <option value="14:00 to 17:00 Wednesday">14:00 to 17:00 Wednesday</option>
+                <option value="9:00 to 12:00 Thursday">9:00 to 12:00 Thursday</option>
+                <option value="14:00 to 17:00 Thursday">14:00 to 17:00 Thursday</option>
+                <option value="9:00 to 12:00 Friday">9:00 to 12:00 Friday</option>
+                <option value="14:00 to 17:00 Friday">14:00 to 17:00 Friday</option>
+                <option value="9:00 to 12:00 Saturday">9:00 to 12:00 Saturday</option>
+                <option value="14:00 to 17:00 Saturday">14:00 to 17:00 Saturday</option>
+           </select> <br /><br />
+          
+           Schedule of classes :&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<select name=" Schedule of classes" id="classSchedule" required> 
+            <option value="" selected disabled>Choose Your Schedule</option>
+            <option value="Python">Python</option>
+            <option value="SQL">SQL</option>
+            <option value="PHP">PHP</option>
+            <option value="Java">Java</option>
+            <option value="Algorithum">Algorithum</option>
+       </select> <br /><br />
+            
+       Teacher’s name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<select name=" Schedule of classes" id="classTeacher" required> 
+        <option value="" selected disabled>Choose Your Teacher’s name</option>
+        <option value="Miss Hina">Miss Hina</option>
+        <option value="Miss Iqra">Miss Iqra</option>
+        <option value="Sir Ishaq">Sir Ishaq</option>
+        <option value="Sir Anas">Sir Anas</option>
+        <option value="Miss Faiza">Miss Faiza</option>
+   </select> <br /><br />
+            
+   Section name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<select name=" Schedule of classes" id="classsection" required> 
+    <option value="" selected disabled>Choose Your Section name</option>
+    <option value="Section A">Section A</option>
+    <option value="Section B">Section B</option>
+    <option value="Section C">Section C</option>
+    <option value="Section D">Section D</option>
+    <option value="Section E">Section E</option>
+</select> <br /><br />
+
+Course Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<select name=" Schedule of classes" id="course" required> 
+    <option value="" selected disabled>Choose Your Course Name</option>
+    <option value="Web and Mobile app">Web and Mobile app</option>
+    <option value="Graphics">Graphics</option>
+    <option value="AI">AI</option>
+    <option value="Flutter">Flutter</option>
+    <option value="Data Science">Data Science</option>
+</select> <br /><br />
+Batch Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input type="text"  style="color: white;" /> <br /><br />
+Roll Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input type="text"  style="color: white;" id="roll" /> <br /><br />
+            
+           
+        </div>
+
+        <div class="buttons">
+           
+            <button id="sub_btn">Submite</button>
+        </div>
+   
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script type="module"  src="config.js"></script>
+    <script  type="module" src="admin.css"></script>
+</body>
+
+</html>
